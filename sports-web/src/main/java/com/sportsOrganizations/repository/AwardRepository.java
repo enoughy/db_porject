@@ -6,7 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.sportsOrganizations.model.sports.Athlete;
 import com.sportsOrganizations.model.sports.Award;
 
 public interface AwardRepository extends JpaRepository<Award, Long> {
